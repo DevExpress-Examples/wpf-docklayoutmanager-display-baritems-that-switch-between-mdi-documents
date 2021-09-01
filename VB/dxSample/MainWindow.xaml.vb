@@ -14,23 +14,23 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace dxSample
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
+		Public Sub New()
+			InitializeComponent()
 
-        End Sub
+		End Sub
 
-        Private Sub item_ItemClick(ByVal sender As Object, ByVal e As DevExpress.Xpf.Bars.ItemClickEventArgs)
-            Me.dxDockLayoutManager.MDIController.TileHorizontal(Me.dxDocumentGroup)
-        End Sub
+		Private Sub item_ItemClick(ByVal sender As Object, ByVal e As DevExpress.Xpf.Bars.ItemClickEventArgs)
+			Me.dxDockLayoutManager.MDIController.TileHorizontal(Me.dxDocumentGroup)
+		End Sub
 
-        Private Sub item_ItemClick_1(ByVal sender As Object, ByVal e As DevExpress.Xpf.Bars.ItemClickEventArgs)
-            Me.dxDockLayoutManager.MDIController.TileVertical(Me.dxDocumentGroup)
-        End Sub
-    End Class
+		Private Sub item_ItemClick_1(ByVal sender As Object, ByVal e As DevExpress.Xpf.Bars.ItemClickEventArgs)
+			Me.dxDockLayoutManager.MDIController.TileVertical(Me.dxDocumentGroup)
+		End Sub
+	End Class
 End Namespace
