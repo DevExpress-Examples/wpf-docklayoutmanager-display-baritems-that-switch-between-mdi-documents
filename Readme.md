@@ -17,7 +17,7 @@ To do this, follow the steps below:
 
 1. Bind the [BarCheckItem.IsChecked](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarCheckItem.IsChecked) property to the [DocumentPanel.IsActive](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.BaseLayoutItem.IsActive) property to allow switching between all [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel).
 
-![image](https://user-images.githubusercontent.com/12169834/175315170-4119eed7-965d-4f92-9da1-89bf5f907750.png)
+<img src="https://user-images.githubusercontent.com/12169834/175315170-4119eed7-965d-4f92-9da1-89bf5f907750.png" width=605px/>
 
 <!-- default file list -->
 ## Files to Look At
